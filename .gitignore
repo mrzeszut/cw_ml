@@ -52,6 +52,13 @@ rsconnect/
 # Ignore quarto files
 /.quarto/
 
+# html files
+*.html
+
+# ignore cache qmd
+README_cache/
+
+
 
 
 
