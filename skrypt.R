@@ -9,3 +9,13 @@ ggplot(mtcars, aes(disp, mpg)) +
   geom_point() +
   geom_smooth() +
   theme_bw()
+
+ggsave(
+  "wykres.png",
+  width = 10,
+  height = 6,
+  dpi = 300,
+  units = "cm"
+)
+
+
